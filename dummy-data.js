@@ -9,8 +9,11 @@ const USERS = [
 ];
 
 const BLOGS = [
-    {id: 1, name: "Delfini's Blog", user_id: 1},
-    {id: 2, name: "James's Blog", user_id: 2}
+    {id: 1, name: "Delfini's Blog 1", user_id: 1},
+    {id: 2, name: "Delfini's Blog 2", user_id: 1},
+    {id: 3, name: "Delfini's Blog 3", user_id: 1},
+    {id: 4, name: "James's Blog 1", user_id: 2},
+    {id: 5, name: "James's Blog 2", user_id: 2}
 ];
 
 module.exports = {

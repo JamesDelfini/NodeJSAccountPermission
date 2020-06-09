@@ -18,17 +18,44 @@ Content-Type: application/json
 ###
 
 GET http://localhost:5000/admin
+Content-Type: application/json
+
+{
+    "userId": 1
+}
 
 ### BLOGS
 
 GET http://localhost:5000/blogs/
+Content-Type: application/json
 
-### 
-GET http://localhost:5000/blogs/1
+{
+    "userId": 1
+}
 
 ###
 
-DELETE  http://localhost:5000/blogs/1
+GET http://localhost:5000/blogs/dashboard
+Content-Type: application/json
+
+{
+    "userId": 2
+}
+
+### 
+GET http://localhost:5000/blogs/1
+Content-Type: application/json
+
+{
+    "userId": 1
+}
+
+
+###
+
+DELETE  http://localhost:5000/blogs/5
+Content-Type: application/json
+
 
 {
     "userId": 1
